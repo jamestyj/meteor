@@ -53,8 +53,8 @@ else
 fi
 
 # Update these values after building the dev-bundle-mongo Jenkins project.
-MONGO_BUILD_NUMBER=3
-MONGO_VERSION=2.4.12
+MONGO_BUILD_NUMBER=6
+MONGO_VERSION=2.6.7
 MONGO_TGZ="mongo_${PLATFORM}_v${MONGO_VERSION}.tar.gz"
 if [ -f "${CHECKOUT_DIR}/${MONGO_TGZ}" ] ; then
     tar zxf "${CHECKOUT_DIR}/${MONGO_TGZ}"
