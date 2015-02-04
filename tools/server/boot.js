@@ -8,7 +8,7 @@ var sourcemap_support = require('source-map-support');
 var bootUtils = require('./boot-utils.js');
 
 // This code is duplicated in tools/main.js.
-var MIN_NODE_VERSION = 'v0.10.33';
+var MIN_NODE_VERSION = 'v0.10.36';
 
 if (require('semver').lt(process.version, MIN_NODE_VERSION)) {
   process.stderr.write(
