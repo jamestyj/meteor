@@ -288,7 +288,6 @@ var launchMongo = function (options) {
       // order of the arguments! Check them before changing any arguments.
       '--bind_ip', '127.0.0.1',
       '--smallfiles',
-      '--nohttpinterface',
       '--port', port,
       '--dbpath', dbPath,
       // Use an 8MB oplog rather than 256MB. Uses less space on disk and
