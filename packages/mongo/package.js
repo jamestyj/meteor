@@ -7,6 +7,8 @@
 // independently, but we don't want to overwhelm the user with
 // minutiae.
 
+// Fix all bugs
+
 Package.describe({
   summary: "Adaptor for using MongoDB and Minimongo over DDP",
   version: '1.0.11'
